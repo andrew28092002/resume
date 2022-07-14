@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+body h1{
+    text-align: center;
+}
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 9px; 
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.info{
+    margin:auto;
+    max-width: 750px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    padding: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.hobbies li{
+    margin-bottom: 10px;
+}
+.hobbies li:last-child{
+    margin-bottom: 0px;
+}
+.form{
+    display: block;
+}
+.container form{
+    display: inline-block;
+}
+
+.form:last-child{
+    margin-bottom: 0;
+}
+.form input, form textarea{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3 px solid rgb(0, 0, 0);
+    outline: none;
+    padding: 15px 0 15px;
+}
